@@ -22,3 +22,5 @@ for item in target_image_data:
 split_image.putdata(split_image_data);
 split_image = split_image.resize((split_image.width, split_image.height * 3))
 split_image.save(args.output_path)
+
+print("Image split successfully!")
