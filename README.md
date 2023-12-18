@@ -11,6 +11,8 @@ Split image:<br>
 ![Various lines of colour split into RGB components](media/result.png)
 
 ## Usage:
+This is a command line application! It also requires the **argparse** and **pillow** libraries to work.
+You can use it with the following syntax:
 ```
 pixelsplitter.py [-h] source_path output_path
 
@@ -23,4 +25,4 @@ positional arguments:
 options:
   -h, --help   show this help message and exit
 ```
-Requires **argparse** and **pillow** libraries to work
+
