@@ -9,3 +9,18 @@ Source image:<br>
 <br>
 Split image:<br>
 ![Various lines of colour split into RGB components](media/result.png)
+
+## Usage:
+```
+pixelsplitter.py [-h] source_path output_path
+
+Splits the pixels of an image into their RGB components
+
+positional arguments:
+  source_path
+  output_path
+
+options:
+  -h, --help   show this help message and exit
+```
+Requires **argparse** and **pillow** libraries to work
